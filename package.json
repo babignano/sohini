@@ -1,0 +1,27 @@
+{
+  "name": "sohini",
+  "version": "1.0.0",
+  "description": "Unit test jade templates with cheerio",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babignano/sohini.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/babignano/sohini/issues"
+  },
+  "homepage": "https://github.com/babignano/sohini#readme",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.8.0",
+    "mocha": "^2.3.2"
+  }
+}
