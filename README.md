@@ -2,6 +2,8 @@
 
 Unit test Javascript templates.
 
+(https://david-dm.org/babignano/sohini.svg)
+
 ## Purpose
 
 - Have a play at creating something to help other template developers.
@@ -21,4 +23,6 @@ Unit test Javascript templates.
 	sohini.load(template, {
 			foo: "bar"
 		});
+
+	// Perform a selector test
 
