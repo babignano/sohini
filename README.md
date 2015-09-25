@@ -2,7 +2,7 @@
 
 Unit test Javascript templates.
 
-(https://david-dm.org/babignano/sohini.svg)
+![NPM Dependencies Status](https://david-dm.org/babignano/sohini.svg "NPM Dependencies Status")
 
 ## Purpose
 
