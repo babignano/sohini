@@ -21,8 +21,12 @@ Unit test Javascript templates.
 
 	// Load template into instance with context
 	sohini.load(template, {
-			foo: "bar"
-		});
+		foo: "bar"
+	});
 
 	// Perform a selector test
+	// returns true
+	var actual = instance.assertExists('h1.main-heading'); 
+
+
 
