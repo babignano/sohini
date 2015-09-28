@@ -4,7 +4,7 @@
   "description": "Unit test jade templates with cheerio",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha"
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,10 @@
     "v8-profiler": "^5.3.2"
   },
   "devDependencies": {
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.3.21",
     "jshint": "^2.8.0",
-    "mocha": "^2.3.2"
+    "mocha": "^2.3.2",
+    "mocha-lcov-reporter": "^1.0.0"
   }
 }
