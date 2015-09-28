@@ -4,6 +4,7 @@ Unit test Javascript templates.
 
 ![NPM Dependencies Status](https://david-dm.org/babignano/sohini.svg "NPM Dependencies Status")
 ![Travis CI Build Status](https://api.travis-ci.org/babignano/sohini.svg "Travis CI Build Status")
+[![Coverage Status](https://coveralls.io/repos/babignano/sohini/badge.svg?branch=master&service=github)](https://coveralls.io/github/babignano/sohini?branch=master)
 
 ## Purpose
 
