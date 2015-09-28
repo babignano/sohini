@@ -3,6 +3,7 @@
 Unit test Javascript templates.
 
 ![NPM Dependencies Status](https://david-dm.org/babignano/sohini.svg "NPM Dependencies Status")
+![Travis CI Build Status](https://api.travis-ci.org/babignano/sohini.svg "Travis CI Build Status")
 
 ## Purpose
 
